@@ -1,0 +1,65 @@
+header {
+    background-color: #900;
+    display: flex;
+    align-items: center;
+  }
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+a:link {
+    color: #eef382;
+    text-decoration: none;
+    }
+   a:visited {
+    color: #eef382;
+    text-decoration: none;
+
+   }
+   a:hover {
+     background-color: darkred;
+     text-decoration: none;
+
+   }
+   a:active {
+    color: blue;
+    text-decoration: none;
+
+   }
+
+.card h3 {
+    color: #900;
+    font-family: Oswald,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: .025em;
+    font-size: 1.65em;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.card {
+    border-style: solid;
+    border-color: #eef382;
+   }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+footer {
+    background-color: #900;
+    color: #eef382;
+    text-align: center;
+}
+
+.email_and_socials p {
+    color: #900;
+    font-family: Oswald,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
